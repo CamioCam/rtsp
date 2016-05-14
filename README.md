@@ -22,7 +22,7 @@ user_manual_url | The url for the latest User Manual | optional |
 
 
 ## Field Template Variables
-The [paths.csv](../blob/master/paths.csv) file uses [mustache syntax](https://mustache.github.io/mustache.5.html) to connote variable values in each field. The current variables recognized include:
+The [paths.csv](../master/paths.csv) file uses [mustache syntax](https://mustache.github.io/mustache.5.html) to connote variable values in each field. The current variables recognized include:
 
 | Variable | Description |
 | -------- | ----------- |
@@ -36,6 +36,6 @@ The [paths.csv](../blob/master/paths.csv) file uses [mustache syntax](https://mu
 ## Pull Requests
 Ideally, test all submissions prior to submitting Pull Requests:
 1. Use [VLC](https://www.videolan.org/vlc/) to open the _rtsp_url_ using the default values specified by _username_, _password_ and _port_.
-2. Create a branch to edit the [paths.csv](../blob/master/paths.csv).
+2. Create a branch to edit the [paths.csv](../master/paths.csv).
 3. Submit a Pull Request for the master branch.
 
