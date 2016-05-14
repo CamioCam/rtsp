@@ -23,6 +23,7 @@ user_manual_url | The url for the latest User Manual | optional |
 
 ## Field Template Variables
 The [paths.csv](../blob/master/paths.csv) file uses [mustache syntax](https://mustache.github.io/mustache.5.html) to connote variable values in each field. The current variables recognized include:
+
 | Variable | Description |
 | -------- | ----------- |
 | ip_address | The local network IP address like _192.168.1.37 |
