@@ -1,5 +1,12 @@
 # rtsp
-This repo contains RTSP url paths for cameras and NVRs.
+This repo contains RTSP url paths for cameras and NVRs. 
+
+The OUI (*O*rganization *U*nique *I*dentifier) of the MAC address 
+is used to help narrow the list of candidate camera/NVR models when
+scanning the local network for devices. Even though multiple manufacturers
+may share the same OUI, because they use the same supplier of network
+interface cards/chipsets, the use of the OUI makes scanning faster.
+
 
 ## Fields
 | Field | Description | Required |
@@ -10,7 +17,7 @@ model	| The model name | required |
 oui_regex	| The regular expression that matches the OUI of the MAC Address. It's OK to assume uppercase only with colon separators like `(00:80:F0)` | required |
 rtsp_url	| The full url that reaches the H.264 RTSP video stream | required |
 stream_name_template	| A user-facing description of a particular stream_number | optional |
-video_encoding	| `H.264` is the only encoding supported by CamioBox currently  | required |
+video_encoding	| `H.264` and `MPEG4` are the only encodings currently  | required |
 port	| The default network port of the RTSP stream, typically `554` | optional |
 min_stream_number	| The lowest channel/stream number (e.g. `0` or `1`) | optional |
 max_stream_number	| The highest channel/stream number (e.g. `15` or `16`) | optional |
