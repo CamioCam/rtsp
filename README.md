@@ -25,6 +25,7 @@ low_res_stream_number	| The stream_number with the preferred low-bandwidth encod
 high_res_stream_number	| The stream_number with the preferred hi-bandwidth encoding | optional |
 username	| The factory-default username | optional |
 password	| The factory-default password | optional |
+is_digest_auth_supported | `true` if Digest Authentication is supported (vs. Basic Authentication) | optional
 user_manual_url | The url for the latest User Manual | optional |
 
 
