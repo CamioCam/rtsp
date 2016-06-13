@@ -20,8 +20,8 @@ stream_name	| A `;` separated list of user-facing description of each stream, e.
 channel_name	| A `;` separated list of user-facing description of each stream, e.g `CAM1; CAM2`. Defaults to `Channel #{{channel}}` | optional |
 video_encoding	| `H.264` and `MPEG4` are the only encodings currently  | required |
 port	| The default network port of the RTSP stream, typically `554` | optional |
-stream	| A `;` separated list containing all available streams like `0;1;2;3`  | optional |
-channel	| For `NVRs`, a `;` separated list of all available channels. Each channel may or may not have more than one stream | optional |
+streams	| A `;` separated list containing all available streams like `0;1;2;3`  | optional |
+channels	| For `NVRs`, a `;` separated list of all available channels. Each channel may or may not have more than one stream | optional |
 low_res_stream	| The stream with the preferred low-bandwidth encoding | optional |
 high_res_stream	| The stream with the preferred hi-bandwidth encoding | optional |
 username	| The factory-default username | optional |
