@@ -11,7 +11,7 @@ interface cards/chipsets, the use of the OUI makes scanning faster.
 ## Fields
 | Field | Description | Required |
 | ----- | ----------- | -------- |
-| company	| The name of the company associated with the OUI (*O*rganization *U*nique *I*dentifier) of the MAC address | required |
+| company	| The name of the camera manufacturer, e.g. "Sharx" or "Amcrest" | required |
 | type | `camera` for standalone IP cameras, or `nvr` for Network Video Recorders | required |
 model	| The model name | required |
 oui_regex	| The regular expression that matches the OUI of the MAC Address. It's OK to assume uppercase only with colon separators like `(00:80:F0)` | required |
