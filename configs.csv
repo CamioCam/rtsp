@@ -1,4 +1,4 @@
-maker,command_id,base_url,path,method,regex_success,regex_firmware,regex_model
-Sharx Security,set_ftp_alarm,http://{{ip_address}},/form/setFtpAlarmSending/?ENABLE=1&SCHED=0&SCHEDID=1&STREAMID=0&DURATION=1&FRAMERATE=1&INTERVAL=0&SERVER=<%=GlobalConstants.FTP_SERVER_NAME%>&PORT=21&REMOTEPATH={{camera_name}}&AUTH=1&USERNAME={{uploadToken}}&PASSWORD=camio”,GET,,^v5,.*SCNC3[89]0[45].*
-Share Security,set_time_server,http://{{ip_address}},/form/setNtp?ENABLE=1&SERVER=time.nist.gov,GET,,^v4,.*SCNC260[45].*
-Panasonic,set_timezone,http://{{ip_address}},/Set?Func=Ntp&Kind=1&NtpEnable=1&NtpServer=0.pool.ntp.org&TimeZone=-16,GET,,,
+maker,command_id,url,method,regex_success,regex_firmware,regex_model
+Sharx Security,set_ftp_alarm,http://{{ip_address}}/form/setFtpAlarmSending/?ENABLE=1&SCHED=0&SCHEDID=1&STREAMID=0&DURATION=1&FRAMERATE=1&INTERVAL=0&SERVER=<%=GlobalConstants.FTP_SERVER_NAME%>&PORT=21&REMOTEPATH={{camera_name}}&AUTH=1&USERNAME={{uploadToken}}&PASSWORD=camio”,GET,,^v5,.*SCNC3[89]0[45].*
+Share Security,set_time_server,http://{{ip_address}}/form/setNtp?ENABLE=1&SERVER=time.nist.gov,GET,,^v4,.*SCNC260[45].*
+Panasonic,set_timezone,http://{{ip_address}}/Set?Func=Ntp&Kind=1&NtpEnable=1&NtpServer=0.pool.ntp.org&TimeZone=-16,GET,,,
