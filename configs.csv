@@ -1,2 +1,0 @@
-maker,command_id,url,method,regex_success,regex_firmware,regex_model
-Sharx Security,enable_wifi,http://{{ip_address}}/form/setWlan/?ENABLE=1&SSID={{ssid}}&MODE=INFRA&SECURITY=WPA2-PSK&ENCRYPTION=AES&AUTHTYPE=AUTO&KEYTYPE=HEX&WEPIDX=1&WEPKEY=&WPAKEY={{password}},GET,^200 Success,^v5,.*SCNC3[89]0[45].*
