@@ -21,8 +21,8 @@ The [configs.csv](../master/cameras/paths.csv) file uses [mustache syntax](https
 | Variable | Description |
 | -------- | ----------- |
 | ip_address | The local network IP address like `192.168.1.37` |
-| ssid | The SSID of the local network |
-| password | The password of the local network |
+| wifi_ssid | The SSID of the local network |
+| wifi_password | The password of the local network |
 
 ## Pull Requests
 
