@@ -16,8 +16,8 @@ interface cards/chipsets, the use of the OUI makes scanning faster.
 model	| The model name | required |
 oui_regex	| The regular expression that matches the OUI of the MAC Address. It's OK to assume uppercase only with colon separators like `(00:80:F0)` | required |
 rtsp_url	| The full url that reaches the H.264 RTSP video stream | required |
-stream_name	| A `;` separated list of user-facing description of each stream, e.g `high-res 1080p; low-res 640p`. Defaults to `Stream #{{stream}}` | optional |
-channel_name	| A `;` separated list of user-facing description of each stream, e.g `CAM1; CAM2`. Defaults to `Channel #{{channel}}` | optional |
+stream_names	| A `;` separated list of user-facing description of each stream, e.g `high-res 1080p; low-res 640p`. Defaults to `Stream #{{stream}}` | optional |
+channel_names	| A `;` separated list of user-facing description of each stream, e.g `CAM1; CAM2`. Defaults to `Channel #{{channel}}` | optional |
 video_encoding	| `H.264` and `MPEG4` are the only encodings currently  | required |
 port	| The default network port of the RTSP stream, typically `554` | optional |
 streams	| A `;` separated list containing all available streams like `0;1;2;3`  | optional |
