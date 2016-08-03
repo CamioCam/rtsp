@@ -14,6 +14,7 @@ The [configs](../master/configs/configs.csv) file contains a list of configurati
 | regex_model	| A regex representing all the models that support the comamnd, e.g "SCNC3[89]0[45]" | required |
 | regex_firmware	| A regex representing all the firmware versions that support the comamnd, e.g "^v4" | required |
 | regex_success	| A regex that represents the response of a command successfully executed | optional |
+| auth_type	| The supported authentication option, e.g. “basic” or “digest” | optional |
 
 ## Field Template Variables
 The [configs.csv](../master/cameras/paths.csv) file uses [mustache syntax](https://mustache.github.io/mustache.5.html) to connote variable values in each field. The current variables recognized include:
