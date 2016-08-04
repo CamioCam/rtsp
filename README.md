@@ -4,11 +4,11 @@ This repositories contains lists of cameras and NVRs as well as their configurat
 
 ## Paths.csv
 
-This [file](../master/cameras/path.csv) contains rtsp urls for IP cameras and NVRs.
+The `paths.csv` file contains [rtsp urls for IP cameras and NVRs](../master/cameras/paths.csv).
 
 ## Configs.csv
 
-This [file](../master/config/configs.csv) contains configuration commands for the cameras described in the file above.
+The `configs.csv` file contains [configuration commands](../master/configs/configs.csv) for the cameras described in the file above.
 
 ## Contributing
 
