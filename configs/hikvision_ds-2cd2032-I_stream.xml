@@ -25,27 +25,27 @@
     </Security>
 </Transport>
 <Video>
-    <enabled>true</enabled>
-    <videoInputChannelID>1</videoInputChannelID>
-    <videoCodecType>H.264</videoCodecType>
-    <videoScanType>progressive</videoScanType>
-    <videoResolutionWidth>1280</videoResolutionWidth>
-    <videoResolutionHeight>720</videoResolutionHeight>
-    <videoQualityControlType>vbr</videoQualityControlType>
+<enabled>true</enabled>
+<videoInputChannelID>1</videoInputChannelID>
+<videoCodecType>H.264</videoCodecType>
+<videoScanType>progressive</videoScanType>
+<videoResolutionWidth>{{res_width}}</videoResolutionWidth>
+<videoResolutionHeight>{{res_height}}</videoResolutionHeight>
+<videoQualityControlType>vbr</videoQualityControlType>
 
-    <fixedQuality>60</fixedQuality>
-    <vbrUpperCap>2048</vbrUpperCap>
-    <vbrLowerCap>32</vbrLowerCap>
-    <maxFrameRate>2000</maxFrameRate>
+<fixedQuality>60</fixedQuality>
+<vbrUpperCap>2048</vbrUpperCap>
+<vbrLowerCap>32</vbrLowerCap>
+<maxFrameRate>2000</maxFrameRate>
 
-    <snapShotImageType>JPEG</snapShotImageType>
+<snapShotImageType>JPEG</snapShotImageType>
 
-    <GovLength>50</GovLength>
-    <SVC>
-        <enabled>false</enabled>
-    </SVC>
-    <PacketType>PS</PacketType>
-    <PacketType>RTP</PacketType>
+<GovLength>50</GovLength>
+<SVC>
+    <enabled>false</enabled>
+</SVC>
+<PacketType>PS</PacketType>
+<PacketType>RTP</PacketType>
 
-    <H264Profile>Main</H264Profile></Video>
+<H264Profile>Main</H264Profile></Video>
 </StreamingChannel>
