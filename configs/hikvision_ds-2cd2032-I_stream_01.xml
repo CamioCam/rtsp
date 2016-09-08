@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><StreamingChannel xmlns="http://www.hikvision.com/ver20/XMLSchema" version="2.0">
 <id>101</id>
-<channelName>Camera 01</channelName>
+<channelName>Camera 02</channelName>
 <enabled>true</enabled>
 <Transport>
     <maxPacketSize>1000</maxPacketSize>
@@ -29,8 +29,8 @@
 <videoInputChannelID>1</videoInputChannelID>
 <videoCodecType>H.264</videoCodecType>
 <videoScanType>progressive</videoScanType>
-<videoResolutionWidth>{{res_width}}</videoResolutionWidth>
-<videoResolutionHeight>{{res_height}}</videoResolutionHeight>
+<videoResolutionWidth>1280</videoResolutionWidth>
+<videoResolutionHeight>720</videoResolutionHeight>
 <videoQualityControlType>vbr</videoQualityControlType>
 
 <fixedQuality>60</fixedQuality>
