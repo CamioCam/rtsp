@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><StreamingChannel xmlns="http://www.hikvision.com/ver20/XMLSchema" version="2.0">
 <id>101</id>
-<channelName>Camera 02</channelName>
+<channelName>Channel 01</channelName>
 <enabled>true</enabled>
 <Transport>
     <maxPacketSize>1000</maxPacketSize>
