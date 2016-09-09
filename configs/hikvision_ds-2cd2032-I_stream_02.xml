@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StreamingChannel version="2.0" xmlns="http://www.hikvision.com/ver20/XMLSchema">
+    <id>102</id>
+    <channelName>Channel 02</channelName>
+    <enabled>true</enabled>
+    <Transport>
+        <maxPacketSize>1000</maxPacketSize>
+        <ControlProtocolList>
+            <ControlProtocol>
+                <streamingTransport>RTSP</streamingTransport>
+            </ControlProtocol>
+            <ControlProtocol>
+                <streamingTransport>HTTP</streamingTransport>
+            </ControlProtocol>
+            <ControlProtocol>
+                <streamingTransport>SHTTP</streamingTransport>
+            </ControlProtocol>
+        </ControlProtocolList>
+        <Unicast>
+            <enabled>true</enabled>
+            <rtpTransportType>RTP/TCP</rtpTransportType>
+        </Unicast>
+        <Multicast>
+            <enabled>true</enabled>
+            <destIPAddress>0.0.0.0</destIPAddress>
+            <videoDestPortNo>8600</videoDestPortNo>
+            <audioDestPortNo>8600</audioDestPortNo>
+        </Multicast>
+        <Security>
+            <enabled>true</enabled>
+        </Security>
+    </Transport>
+    <Video>
+        <enabled>true</enabled>
+        <videoInputChannelID>1</videoInputChannelID>
+        <videoCodecType>H.264</videoCodecType>
+        <videoScanType>progressive</videoScanType>
+        <videoResolutionWidth>352</videoResolutionWidth>
+        <videoResolutionHeight>240</videoResolutionHeight>
+        <videoQualityControlType>VBR</videoQualityControlType>
+        <constantBitRate>512</constantBitRate>
+        <fixedQuality>60</fixedQuality>
+        <vbrUpperCap>512</vbrUpperCap>
+        <vbrLowerCap>32</vbrLowerCap>
+        <maxFrameRate>3000</maxFrameRate>
+        <keyFrameInterval>1666</keyFrameInterval>
+        <snapShotImageType>JPEG</snapShotImageType>
+        <H264Profile>Main</H264Profile>
+        <GovLength>50</GovLength>
+        <SVC>
+            <enabled>false</enabled>
+        </SVC>
+        <PacketType>PS</PacketType>
+        <PacketType>RTP</PacketType>
+        <smoothing>50</smoothing>
+    </Video>
+</StreamingChannel>

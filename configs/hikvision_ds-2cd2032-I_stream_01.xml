@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><StreamingChannel xmlns="http://www.hikvision.com/ver20/XMLSchema" version="2.0">
+<id>101</id>
+<channelName>Channel 01</channelName>
+<enabled>true</enabled>
+<Transport>
+    <maxPacketSize>1000</maxPacketSize>
+    <ControlProtocolList>
+        <ControlProtocol>
+            <streamingTransport>RTSP</streamingTransport>
+        </ControlProtocol>
+        <ControlProtocol>
+            <streamingTransport>HTTP</streamingTransport>
+        </ControlProtocol>
+        <ControlProtocol>
+            <streamingTransport>SHTTP</streamingTransport>
+        </ControlProtocol>
+    </ControlProtocolList>
+    <Unicast>
+        <enabled>true</enabled>
+        <rtpTransportType>RTP/TCP</rtpTransportType>
+    </Unicast>
+
+    <Security>
+        <enabled>true</enabled>
+    </Security>
+</Transport>
+<Video>
+<enabled>true</enabled>
+<videoInputChannelID>1</videoInputChannelID>
+<videoCodecType>H.264</videoCodecType>
+<videoScanType>progressive</videoScanType>
+<videoResolutionWidth>1280</videoResolutionWidth>
+<videoResolutionHeight>720</videoResolutionHeight>
+<videoQualityControlType>vbr</videoQualityControlType>
+
+<fixedQuality>60</fixedQuality>
+<vbrUpperCap>2048</vbrUpperCap>
+<vbrLowerCap>32</vbrLowerCap>
+<maxFrameRate>2000</maxFrameRate>
+
+<snapShotImageType>JPEG</snapShotImageType>
+
+<GovLength>50</GovLength>
+<SVC>
+    <enabled>false</enabled>
+</SVC>
+<PacketType>PS</PacketType>
+<PacketType>RTP</PacketType>
+
+<H264Profile>Main</H264Profile></Video>
+</StreamingChannel>
