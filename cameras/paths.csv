@@ -1,10 +1,10 @@
 company,type,model,oui_regex,rtsp_url,video_encoding,port,streams,channels,stream_names,channel_names,low_res_stream,high_res_stream,username,password,is_digest_auth_supported,user_manual_url
 Panasonic,camera,BL-C230,(00:80:F0|08:00:23),rtsp://{{username}}:{{password}}@{{ip_address}}/MediaInput/h264,H.264,80,,,,,,,Administrator,,,http://security.panasonic.com/support/technical/qr_guide_c230/
-Sharx Security,camera,SCNC3905,(00:0D:F0|00:E0:4C|78:12:B8),rtsp://{{username}}:{{password}}@{{ip_address}}/live/{{stream}}/h264.sdp,H.264,80,0;1;2,,,,2,0,admin,admin,TRUE,
-Sharx Security,camera,SCNC3805,(00:0D:F0|00:E0:4C|78:12:B8),rtsp://{{username}}:{{password}}@{{ip_address}}/live/{{stream}}/h264.sdp,H.264,80,0;1;2,,,,2,0,admin,admin,TRUE,
-Sharx Security,camera,SCNC3804,(00:E0:4B|7C:DD:90),rtsp://{{username}}:{{password}}@{{ip_address}}/live/{{stream}}/h264.sdp,H.264,80,0;1;2,,,,2,0,admin,admin,TRUE,
-Sharx Security,camera,SCNC3605,(00:E0:4C),rtsp://{{username}}:{{password}}@{{ip_address}}/live_mpeg4.sdp,MPEG4,80,0;1;2,,,,2,0,admin,admin,TRUE,
-Sharx Security,camera,SCNC2700,(00:E0:4C|00:80:48),rtsp://{{username}}:{{password}}@{{ip_address}}/live_mpeg4.sdp,MPEG4,80,0;1;2,,,,2,0,admin,admin,TRUE,
+Sharx Security,camera,SCNC3905,(00:0D:F0|00:E0:4C|78:12:B8),rtsp://{{username}}:{{password}}@{{ip_address}}/live/{{stream}}/h264.sdp,H.264,80,0;1;2,,,,2,0,admin,admin,TRUE
+Sharx Security,camera,SCNC3805,(00:0D:F0|00:E0:4C|78:12:B8),rtsp://{{username}}:{{password}}@{{ip_address}}/live/{{stream}}/h264.sdp,H.264,80,0;1;2,,,,2,0,admin,admin,TRUE
+Sharx Security,camera,SCNC3804,(00:E0:4B|7C:DD:90),rtsp://{{username}}:{{password}}@{{ip_address}}/live/{{stream}}/h264.sdp,H.264,80,0;1;2,,,,2,0,admin,admin,TRUE
+Sharx Security,camera,SCNC3605,(00:E0:4C),rtsp://{{username}}:{{password}}@{{ip_address}}/live_mpeg4.sdp,MPEG4,80,0;1;2,,,,2,0,admin,admin,TRUE
+Sharx Security,camera,SCNC2700,(00:E0:4C|00:80:48),rtsp://{{username}}:{{password}}@{{ip_address}}/live_mpeg4.sdp,MPEG4,80,0;1;2,,,,2,0,admin,admin,TRUE
 Foscam,camera,C1,(A0:07:A0|00:12:7B|00:0D:C5),rtsp://{{username}}:{{password}}@{{ip_address}}/videoMain,H.264,88,,,,,,,admin,,,http://foscam.us/media/mconnect_uploadfiles/c/1/c1%20user%20manual.pdf
 D-Link,camera,DCS-2332,(28:10:7B),rtsp://{{username}}:{{password}}@{{ip_address}}/live{{stream}}.sdp,H.264,554,1;2;3,,,,3,1,admin,,,http://www.dlink.com/-/media/Consumer_Products/DCS/DCS%202332L/Manual/DCS_2332L_A1_Manual_v100_WW.pdf
 D-Link,camera,DCS-960L,(B0:C5:54),rtsp://{{username}}:{{password}}@{{ip_address}}/play{{stream}}.sdp,H.264,554,1;2;3,,,,3,1,admin,,,ftp://ftp2.dlink.com/PRODUCTS/DCS-960L/REVA/DCS-960L_REVA_MANUAL_1.00_EN_US.PDF
