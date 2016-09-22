@@ -15,7 +15,7 @@ The [configs](../master/configs/configs.csv) file contains a list of configurati
 | regex_firmware	| A regex representing all the firmware versions that support the comamnd, e.g "^v4" | required |
 | regex_success	| A regex that represents the response of a command successfully executed | optional |
 | auth_type	| The supported authentication option, e.g. “basic” or “digest” | optional |
-| payload   | name of the file in the `rtsp/configs/` directory that we will POST/PUT to the given url | optional |
+| payload   | name of the file in the `rtsp/configs/` directory that will be used as the payload template for the POST/PUT to the given URL |
 
 ## Field Template Variables
 The [configs.csv](../master/cameras/paths.csv) file uses [mustache syntax](https://mustache.github.io/mustache.5.html) to connote variable values in each field. The current variables recognized include:
