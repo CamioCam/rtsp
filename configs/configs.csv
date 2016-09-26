@@ -6,4 +6,4 @@ D-Link,set_stream_2,http://{{username}}:{{password}}@{{ip_address}}/vb.htm?langu
 Hikvision,set_stream_01,http://{{username}}:{{password}}@{{ip_address}}/ISAPI/Streaming/channels/101,PUT,basic,.*statusCode.*1.*,.*,.*DS-2CD2032-I.*,hikvision_ds-2cd2032-I_stream_01.xml
 Hikvision,set_stream_02,http://{{username}}:{{password}}@{{ip_address}}/ISAPI/Streaming/channels/102,PUT,basic,.*statusCode.*1.*,.*,.*DS-2CD2032-I.*,hikvision_ds-2cd2032-I_stream_02.xml
 Hikvision,enable_dhcp,http://{{username}}:{{password}}@{{ip_address}}/ISAPI/System/Network/interfaces/1,PUT,basic,.*statusCode.*1.*,.*,DS-2CD2032-I,hikvision_ds-2cd2032-I_enable_dhcp.xml
-Hikvision,reboot,http://{{username}}:{{password}}/ISAPI/System/reboot,PUT,basic,.*statucCode.*1.*,.*,.*DS-2CD2032-I.*,
+Hikvision,reboot,http://{{username}}:{{password}}/ISAPI/System/reboot,PUT,basic,.*statusCode.*1.*,.*,.*DS-2CD2032-I.*,
