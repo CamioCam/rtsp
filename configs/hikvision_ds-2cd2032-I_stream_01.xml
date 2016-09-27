@@ -29,8 +29,8 @@
 <videoInputChannelID>1</videoInputChannelID>
 <videoCodecType>H.264</videoCodecType>
 <videoScanType>progressive</videoScanType>
-<videoResolutionWidth>1280</videoResolutionWidth>
-<videoResolutionHeight>720</videoResolutionHeight>
+<videoResolutionWidth>1920</videoResolutionWidth>
+<videoResolutionHeight>1080</videoResolutionHeight>
 <videoQualityControlType>vbr</videoQualityControlType>
 
 <fixedQuality>60</fixedQuality>
