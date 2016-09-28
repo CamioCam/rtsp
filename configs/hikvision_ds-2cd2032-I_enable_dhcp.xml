@@ -1,0 +1,13 @@
+<?xml version:'1.0' encoding='utf-8'?>
+<NetworkInterface>
+    <id>1</id>
+    <IPAddress>
+        <ipVersion>dual</ipVersion>
+        <addressingType>dynamic</addressingType>
+        <subnetMask>255.255.255.0</subnetMask>
+        <ipV6AddressingType>ra</ipV6AddressingType>
+        <SecondaryDNS>
+            <hostName>0.0.0.0</hostName>
+        </SecondaryDNS>
+    </IPAddress>
+</NetworkInterface>
