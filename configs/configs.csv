@@ -1,6 +1,9 @@
 maker,command_id,url,method,auth_type,regex_success,regex_firmware,regex_model,payload
 Sharx Security,enable_wifi,http://{{ip_address}}/form/setWlan/?ENABLE=1&SSID={{wifi_ssid}}&MODE=INFRA&SECURITY=WPA2-PSK&ENCRYPTION=AES&AUTHTYPE=AUTO&KEYTYPE=HEX&WEPIDX=1&WEPKEY=&WPAKEY={{wifi_password}},GET,basic,^000 Success,^v5,.*SCNC3[89]0[45].*,
+Sharx Security,set_stream_0,http://{{ip_address}}/form/setStream/?TYPE=0&ENABLE=1&SIZE=HDSIZE&FRAMERATE=20&H264BITRATE=1536&MPEG4BITRATE=1024&MJPEGQUALITY=50&JPEGQUALITY=90&AUDIOCODEC=AACLC&AUDIOBITRATE=16000&AUTH=1&H264BUFFERSEC=0,GET,basic,^000 Success,^v5,.*SCNC3[89]0[45].*,
 D-Link,set_stream_1,http://{{username}}:{{password}}@{{ip_address}}/vb.htm?language=ie&profile1format=H.264&profile1resolution=1280x720&profile1view=640x360&profile1rate=15&profile1qmode=1&profile1quality=2&videocodec=1,GET,basic,^OK.*,.*,.*DCS.2332.*,
 D-Link,set_stream_2,http://{{username}}:{{password}}@{{ip_address}}/vb.htm?language=ie&profile2format=JPEG&profile2resolution=640x360&profile2view=640x360&profile2rate=30&profile2quality=0&audiotype=G.711&audioinenable=0&micgain=Medium&audiooutenable=0&audiooutvolume=10&videocodec=1,GET,basic,^OK.*,.*,.*DCS.2332.*,
 Hikvision,set_stream_01,http://{{username}}:{{password}}@{{ip_address}}/ISAPI/Streaming/channels/101,PUT,basic,.*statusCode.*1.*,.*,.*DS-2CD2032-I.*,hikvision_ds-2cd2032-I_stream_01.xml
 Hikvision,set_stream_02,http://{{username}}:{{password}}@{{ip_address}}/ISAPI/Streaming/channels/102,PUT,basic,.*statusCode.*1.*,.*,.*DS-2CD2032-I.*,hikvision_ds-2cd2032-I_stream_02.xml
+Hikvision,enable_dhcp,http://{{username}}:{{password}}@{{ip_address}}/ISAPI/System/Network/interfaces/1,PUT,basic,.*statusCode.*1.*,.*,DS-2CD2032-I,hikvision_ds-2cd2032-I_enable_dhcp.xml
+Hikvision,reboot,http://{{username}}:{{password}}@{{ip_address}}/ISAPI/System/reboot,PUT,basic,.*statusCode.*1.*,.*,.*DS-2CD2032-I.*,
