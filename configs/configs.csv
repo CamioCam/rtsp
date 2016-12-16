@@ -7,3 +7,5 @@ Hikvision,set_stream_01,http://{{username}}:{{password}}@{{ip_address}}/ISAPI/St
 Hikvision,set_stream_02,http://{{username}}:{{password}}@{{ip_address}}/ISAPI/Streaming/channels/102,PUT,basic,.*statusCode.*1.*,.*,.*DS-2CD2032-I.*,hikvision_ds-2cd2032-I_stream_02.xml
 Hikvision,enable_dhcp,http://{{username}}:{{password}}@{{ip_address}}/ISAPI/System/Network/interfaces/1,PUT,basic,.*statusCode.*1.*,.*,DS-2CD2032-I,hikvision_ds-2cd2032-I_enable_dhcp.xml
 Hikvision,reboot,http://{{username}}:{{password}}@{{ip_address}}/ISAPI/System/reboot,PUT,basic,.*statusCode.*1.*,.*,.*DS-2CD2032-I.*,
+Samsung Techwin,set_stream_0,http://{{username}}:{{password}}@{{ip_address}}/action/setConfig?name=MainStream&MainStream.VideoType=0&MainStream.BitrateType=1&MainStream.BitrateMode=1&MainStream.Fps=20&MainStream.CustomBitrate=2048&MainStream.Resolution=5&MainStream.VideoQuality=5&MainStream.LoadBalancing=0&MainStream.IFrameInterval=20&MainStream.AudioSwitch=0&MainStream.ProfileLevel=0,GET,basic,.*result.*OK.*,*,SNC-4241.*,
+
