@@ -44,3 +44,4 @@ UniFi,nvr,NVR,(D0:27:88),rtsp://{{username}}:{{password}}@{{ip_address}}:{{port}
 Zmodo,nvr,NVR,(04:5C:06),rtsp://{{username}}:{{password}}@{{ip_address}}:{{port}}/tcp/av{{channel}}_{{stream}},H.264,554,0;1,0;1;2;3,Stream {{stream}},Channel {{channel}},1,0,admin,111111,,http://kb.zmodo.com/index.php?solution_id=1308
 Techview,camera,Indoor Camera,(E8:AB:FA),rtsp://{{username}}:{{password}}@{{ip_address}}/12,H.264,554,,,,,,,admin,admin,,http://www.itechview.com/details.php?product=dahua-3mp-network-ir-bullet-camera-1080p-ipc-hfw1320s-new-model
 Tyco,camera,Illustra,(00:30:46),rtsp://{{username}}:{{password}}@{{ip_address}}/ufirststream/ufirststream,H.264,,,,,,,,admin,admin,,
+Alptop,camera,AT_LIR400,(00:00:1B),rtsp://{{username}}:{{password}}@{{ip_address}}:{{port}}/{{stream}},H.264,554,0,,Stream {{stream}},,0,0,admin,admin,,http://www.alptopsecurity.com/16.html
