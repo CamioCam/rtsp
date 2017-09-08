@@ -1,6 +1,6 @@
 company,type,model,oui_regex,rtsp_url,video_encoding,port,streams,channels,stream_names,channel_names,low_res_stream,high_res_stream,username,password,is_digest_auth_supported,user_manual_url
 Panasonic,camera,BL-C230,(00:80:F0|08:00:23),rtsp://{{username}}:{{password}}@{{ip_address}}/MediaInput/h264,H.264,80,,,,,,,Administrator,,,http://security.panasonic.com/support/technical/qr_guide_c230/
-Panasonic,camera,BB-HCM531A,(00:80:F0),rtsp://{{username}}:{{password}}@{{ip_address}}/nphMpeg4/nil-640x480,H.264,80,,,,,,Administrator,,,http://www.crestron.com/downloads/pdf/product_misc/rg_ip_streaming_panasonic_bb-hcm531a.pdf
+Panasonic,camera,BB-HCM531A,(00:80:F0),rtsp://{{username}}:{{password}}@{{ip_address}}/nphMpeg4/nil-640x480,H.264,80,,,,,,,Administrator,,,http://www.crestron.com/downloads/pdf/product_misc/rg_ip_streaming_panasonic_bb-hcm531a.pdf
 Sharx Security,camera,SCNC2900;SCNC3905;SCNC3805,(00:0D:F0|00:E0:4C|78:12:B8),rtsp://{{username}}:{{password}}@{{ip_address}}/live/{{stream}}/h264.sdp,H.264,80,0;1;2,,,,2,0,admin,admin,TRUE,https://www.sharxsecurity.com/pdf/Sharx%20Security%20Camera%20SCNC2900%20SCNC3905.pdf
 Sharx Security,camera,SCNC3804,(00:E0:4B|7C:DD:90),rtsp://{{username}}:{{password}}@{{ip_address}}/live/{{stream}}/h264.sdp,H.264,80,0;1;2,,,,2,0,admin,admin,TRUE,
 Sharx Security,camera,SCN3605;SCNC2700,(00:E0:4C|00:80:48),rtsp://{{username}}:{{password}}@{{ip_address}}/live_mpeg4.sdp,MPEG4,80,0;1;2,,,,2,0,admin,admin,TRUE,
