@@ -63,3 +63,4 @@ TVT,nvr,TD2700 Series,(00:18:AE),rtsp://{{username}}:{{password}}@{{ip_address}}
 Geovision,nvr,GV-VS2400,(00:13:E2),rtsp://{{username}}:{{password}}@{{ip_address}}:{{port}}/CH00{{channel}}.sdp,H.264,8554,,1;2;3;4,,Channel {{channel}},,,admin,admin,,http://www.geovision.com.tw/product/GV-VS2400
 Mobotix,camera,s16,(00:03:C5),rtsp://{{username}}:{{password}}@{{ip_address}}:{{port}}/mobotix.h264,H.264,554,,,,,,,admin,admin,,https://www.mobotix.com/sites/default/files/2017-10/Mx_QI_S16_en_20171010.pdf
 Matrix,camera,3MP Fixed,(00:1B:09),rtsp://{{username}}:{{password}}@{{ip_address}}:{{port}}/unicaststream/1,H.264,554,,,,,,,admin,admin,,https://www.matrixvideosurveillance.com/3mp-fixed-lens-cameras.html
+Q-See,camera,QCW2MPSL,(38:AF:29),rtsp://{{username}}:{{password}}@{{ip_address}}:{{port}}/cam/realmonitor?channel=1&subtype={{stream}},H.264,554,0;1,,Main;Secondary,,1,0,admin,admin,,https://qplus.dozuki.com/Document/IRHTmtVmhSNlbJWT/.pdf
