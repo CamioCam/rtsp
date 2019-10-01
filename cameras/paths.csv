@@ -66,3 +66,4 @@ ADT,nvr,A-ADT4H2S,(00:03:22),rtsp://{{username}}:{{password}}@{{ip_address}}:{{p
 Mobotix,camera,s16,(00:03:C5),rtsp://{{username}}:{{password}}@{{ip_address}}:{{port}}/mobotix.h264,H.264,554,,,,,,,admin,admin,,https://www.mobotix.com/sites/default/files/2017-10/Mx_QI_S16_en_20171010.pdf
 Matrix,camera,3MP Fixed,(00:1B:09),rtsp://{{username}}:{{password}}@{{ip_address}}:{{port}}/unicaststream/1,H.264,554,,,,,,,admin,admin,,https://www.matrixvideosurveillance.com/3mp-fixed-lens-cameras.html
 Q-See,camera,QCW2MPSL,(38:AF:29),rtsp://{{username}}:{{password}}@{{ip_address}}:{{port}}/cam/realmonitor?channel=1&subtype={{stream}},H.264,554,0;1,,Main;Secondary,,1,0,admin,admin,,https://qplus.dozuki.com/Document/IRHTmtVmhSNlbJWT/.pdf
+OVISS,camera,Camera,(FC:D2:B6|E4:F1:4C),rtsp://{{username}}:{{password}}@{{ip_address}}:{{port}}/video{{stream}},H.264,8554,1;2;3,,Main;Sub;Third,,Sub,Main,admin,123456,,
